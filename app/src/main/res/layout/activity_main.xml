@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ltbrown"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textSize="30dp"
+        android:padding="12dp"
+        android:textColor="@color/dkbrown"
+        android:text="@string/MathAppTitle" />
+
+    <Button
+        android:id="@+id/DaleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#60432D"
+        android:fontFamily="cursive"
+        android:textSize="30dp"
+        android:text="Dale" />
+
+    <Button
+        android:id="@+id/RicoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#60432D"
+        android:fontFamily="cursive"
+        android:textSize="30dp"
+        android:text="Rico" />
+
+    <Button
+        android:id="@+id/ShawnButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#60432D"
+        android:fontFamily="cursive"
+        android:textSize="30dp"
+        android:text="Shawn" />
+
+    <Button
+        android:id="@+id/JonathanButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#60432D"
+        android:fontFamily="cursive"
+        android:textSize="30dp"
+        android:text="Jonathan" />
+
+    <Button
+        android:id="@+id/JasmineButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#60432D"
+        android:fontFamily="cursive"
+        android:textSize="30dp"
+        android:text="Jasmine" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/brownmath" />
+
+</LinearLayout>
